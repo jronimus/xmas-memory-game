@@ -1,9 +1,38 @@
-# React + Vite
+# Christmas Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🎅 _Basic memory game but christmas themed_ 🎅
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# xmas-memory-game
+## Things yet to do:
+
+- Background image
+- Menu
+- Sounds
+- Better and more animations
+- Better popups
+- Layout fixes
+- Azure static web app implementation
+
+---
+
+# Usage
+
+Here will be the url for the game
+
+# Features
+
+Here will be all the features of this game
+
+# Gallery
+
+Here will be screenshots from the game
+
+# Thanks
+
+- I used [this tutorial](https://www.youtube.com/watch?v=c16KLlM3ZNw&ab_channel=AtomicCode) for the base game functionality
+- Helsinki Business College
+
+---
+
+Joni Ronimus 2023

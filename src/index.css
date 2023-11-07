@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin-block-start: 1rem;
+  text-align: center;
+  color: aliceblue;
+}
+
+.container {
+  margin: 2rem 10rem;
+  width: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px 5px;
+}
+
+.card {
+  background-image: url("images\00261-1636341428.png");
+  background-size: contain;
+  background-color: aqua;
+  border-radius: 5px;
+
+  animation: 20s hideCard linear;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  opacity: 0;
+  animation: 20s hideImage linear;
+}
+
+.card.active {
+  transform: rotateY(0);
+}
+
+.card.active img {
+  opacity: 1;
+}
+
+.unmatch {
+  background-color: rgb(240, 28, 28);
+  border-radius: 5px;
+  animation: 2s hideCard linear;
+}
+
+@keyframes hideCard {
+  0%,
+  70% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(180deg);
+  }
+}
+
+@keyframes hideImage {
+  0%,
+  84% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+}
